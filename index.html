@@ -35,7 +35,7 @@
     <div class="main mb-5">
       <!-- navbar section  -->
 
-      <nav class="navbar navbar-expand-lg px-5">
+      <nav class="navbar navbar-expand-lg mx-5 px-5">
         <a class="navbar-brand text-light fs-1" href="#">nexus</a>
         <button
           class="navbar-toggler"
@@ -43,7 +43,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navLinks"
         >
-          <span class="navbar-toggler-icon bg-light"></span>
+          <span class="navbar-toggler-icon bg-secondary"></span>
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
           <ul class="navbar-nav ms-auto">
@@ -76,7 +76,7 @@
       <!-- hero section  -->
 
       <div
-        class="container col-10 rounded-5 mt-5"
+        class="container col-12 rounded-5 mt-5"
         style="position: relative; background-color: #1a1a1a"
       >
         <div class="row">
@@ -90,13 +90,13 @@
           </div>
 
           <div class="next-gen text-light fs-1 p-5">
-            <h1 class="display-1 fw-semibold">
+            <h1 id="hero-heading" class="display-1 fw-semibold">
               NEXT-GEN AI<br />
               SUMMIT
             </h1>
           </div>
 
-          <p class="text-light px-5">
+          <p class="text-light px-5 ms-5 fs-4">
             Explore the cutting-edge innovations shaping the future of
             artificial intelligence. <br />
             Join global leaders and visionaries for two days of insights,
@@ -104,15 +104,15 @@
           </p>
 
           <img
-            class="image-fluid w-50 h-75 d-none d-none d-lg-block"
-            style="position: absolute; top: 100px; right: 100px"
+            class="image-fluid w-50 h-50 d-none d-none d-lg-block"
+            style="position: absolute; top: 350px; right: 0px"
             src="Assets/header images/header image.svg"
             alt=""
           />
 
           <div class="herobutton">
-            <button class="btn btn-primary rounded-pill m-5 px-4 py-3">
-              Early bird tickets <i class="bi bi-arrow-right text-light"> </i>
+            <button id="herobutton1" class="btn btn-primary rounded-pill m-5 px-4 py-3">
+              Early bird tickets <i class="bi bi-arrow-up-right text-light"> </i>
             </button>
           </div>
         </div>
@@ -136,17 +136,19 @@
             <div class="p-4 card h-100 text-white bg-primary rounded-5">
               <h5 class="fw-bold display-4">Speakers</h5>
 
+             <div class="d-flex gap-5">
               <div
-                class="bg-white d-inline-block rounded-circle text-center mb-3"
-                style="width: 35px; line-height: 35px"
+                class="bg-white d-inline-block rounded-circle text-center pt-2 m-3"
+                style="width: 40px; height: 40px"
               >
                 <i class="bi bi-arrow-up-right text-dark"></i>
               </div>
 
-              <p class="mt-2 fs-5">
-                Hear from global AI leaders, researchers, and entrepreneurs who
-                are defining the future of artificial intelligence.
+              <p class="mt-2 fs-5 ps-2">
+                Hear from global AI leaders, <br> researchers, and entrepreneurs <br> who
+                are defining the future of <br> artificial intelligence.
               </p>
+              </div>
 
               <div class="d-flex align-items-center flex-wrap mt-3">
                 <img
@@ -208,7 +210,7 @@
         class="agenda d-flex justify-content-between text-light m-5 flex-wrap"
       >
         <h1 class="ms-5 display-1">AGENDA</h1>
-        <p class="mt-4 me-5">
+        <p class="mt-4 ps-3 ms-5 me-5">
           October 15-17, 2052 | Horizon <br />
           Convention Center, Amsterdam
         </p>
@@ -504,9 +506,9 @@
       </section>
 
       <section class="container">
-        <div class="row g-5">
+        <div class="row g-5 gap-5">
           <div
-            class="col-md-4 text-light rounded-5 p-5"
+            class="col-md-3 text-light rounded-5 p-5"
             style="background-color: #1a1a1a"
           >
             <h3>GAME CHANGING INSIGHTS</h3>
@@ -526,7 +528,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 text-light bg-primary rounded-5 p-5">
+          <div class="col-md-3 text-light bg-primary rounded-5 p-5">
             <h3>THE BEST AI EVENT!</h3>
             <p class="py-5">
               "From hands-on workshops to visionary talks, this summit is a
@@ -544,7 +546,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 text-light bg-light text-dark rounded-5 p-5">
+          <div class="col-md-3 text-light bg-light text-dark rounded-5 p-5">
             <h3>UNMATCHED OPPORTUNITIES</h3>
             <p class="py-3">
               "Incredible speakers, top-tier networking, and cutting-edge
@@ -610,8 +612,8 @@
       </section>
 
       <section class="container">
-        <div class="row g-5">
-          <div class="col-md-4 text-light bg-primary rounded-5 p-5">
+        <div class="row g-5 gap-5">
+          <div class="col-md-3 text-light bg-primary rounded-5 p-5">
             <h3>EARLY BIRD PASS</h3>
             <p class="py-3">Limited time offer!</p>
             <h1 class="pt-3">€299</h1>
@@ -619,7 +621,7 @@
               Get your ticket <i class="bi bi-arrow-up-right text-dark"></i>
             </button>
           </div>
-          <div class="col-md-4 text-light border rounded-5 p-5">
+          <div class="col-md-3 text-light border rounded-5 p-5">
             <h3>STANDARD PASS</h3>
             <p class="pt-2 text-dark">1</p>
             <h1 class="pt-5">€399</h1>
@@ -627,7 +629,7 @@
               Get your ticket <i class="bi bi-arrow-up-right text-dark"></i>
             </button>
           </div>
-          <div class="col-md-4 text-light border rounded-5 p-5">
+          <div class="col-md-3 text-light border rounded-5 p-5">
             <h3>VIP EXPERIENCE</h3>
             <p class="py-2">
               Includes exclusive speaker <br />
@@ -763,7 +765,7 @@
                 <p>Cookie Policy</p>
               </div>
             </div>
-            <p class="pt-5">© 2052 Next-Gen AI Summit. All rights reserved.</p>
+            <p class="pt-5 text-secondary">© 2052 Next-Gen AI Summit. All rights reserved.</p>
           </div>
           <div
             class="container col-md-5 text-light bg-primary rounded-5 p-5 mt-5"
