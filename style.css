@@ -7,7 +7,7 @@ body{
 
 
 #timer {
-  font-size: 80px; 
+  font-size: 60px; 
   padding-left: 1rem; 
   font-weight: 700;
 }
@@ -28,12 +28,17 @@ body{
 
 @media (max-width: 500px) { 
   #speakerimages {
-    padding-left: 50px;
+    padding-left: 20px;
   }
 }
 @media (max-width: 500px) { 
   #tickets {
     padding-left: 100px;
+  }
+}
+@media (max-width: 500px) { 
+  .conclusionofdays {
+    font-size: 15px;
   }
 }
 
