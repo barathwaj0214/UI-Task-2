@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#timer {
+  font-size: 80px; 
+  padding-left: 1rem; 
+  font-weight: 700;
+}
+
+@media (min-width: 768px) { 
+  #timer {
+    font-size: 130px;
+    padding-left: 3rem; 
+  }
+}
+
+@media (min-width: 992px) { 
+  #timer {
+    font-size: 150px;
+    padding-left: 3rem;
+  }
+}
+
+@media (max-width: 500px) { 
+  #speakerimages {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 500px) { 
+  #tickets {
+    padding-left: 100px;
+  }
+}
+
