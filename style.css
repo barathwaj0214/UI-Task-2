@@ -17,39 +17,7 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-#imgicon1 {
-  width: 65px;
-  height: 65px;
-  position: absolute;
-  left: 30px;
-  top: 350px;
-}
-#imgicon2 {
-  width: 65px;
-  height: 65px;
-  position: absolute;
-  left: 60px;
-  top: 350px;
-}
-#imgicon3 {
-  width: 65px;
-  height: 65px;
-  position: absolute;
-  left: 90px;
-  top: 350px;
-}
-#imgicon4 {
-  width: 65px;
-  height: 65px;
-  position: absolute;
-  left: 120px;
-  top: 350px;
-}
-#bttn1 {
-  position: absolute;
-  right: 50px;
-  top: 350px;
-}
+
 /* comments */
 #timer {
   font-size: 50px;
@@ -116,22 +84,5 @@ body {
 @media (max-width: 800px) {
   #past-attendeesid {
     left: -10px;
-  }
-}
-@media (max-width: 800px) {
-  #imgicon1 {
-    top: 400px;
-  }
-  #imgicon2 {
-    top: 400px;
-  }
-  #imgicon3 {
-    top: 400px;
-  }
-  #imgicon4 {
-    top: 400px;
-  }
-  #bttn1 {
-    top: 480px;
   }
 }
