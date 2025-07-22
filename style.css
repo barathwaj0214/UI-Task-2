@@ -1,139 +1,137 @@
-body{
-     margin: 0; 
-     padding: 0; 
-     box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #hero-heading {
-  font-size: 50px; 
-  padding-left: 1rem; 
+  font-size: 50px;
+  padding-left: 1rem;
   font-weight: 700;
 }
-#herobutton1{
-   background: linear-gradient(to right, #0147FF, #0147FF00);
+#herobutton1 {
+  background: linear-gradient(to right, #0147ff, #0147ff00);
   color: white;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
-#imgicon1{
-  width: 65px; 
-  height: 65px; 
-  position: absolute; 
-  left: 30px; 
-  top: 350px;
-}
-#imgicon2{
-  width: 65px; 
-  height: 65px; 
-  position: absolute; 
-  left: 60px; 
-  top: 350px;
-}
-#imgicon3{
-  width: 65px; 
-  height: 65px; 
-  position: absolute; 
-  left: 90px; 
-  top: 350px;
-}
-#imgicon4{
-  width: 65px; 
-  height: 65px; 
-  position: absolute; 
-  left: 120px; 
-  top: 350px;
-}
-#bttn1{
+#imgicon1 {
+  width: 65px;
+  height: 65px;
   position: absolute;
-  right: 50px; 
+  left: 30px;
   top: 350px;
 }
-
-
+#imgicon2 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 60px;
+  top: 350px;
+}
+#imgicon3 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 90px;
+  top: 350px;
+}
+#imgicon4 {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 120px;
+  top: 350px;
+}
+#bttn1 {
+  position: absolute;
+  right: 50px;
+  top: 350px;
+}
+/* comments */
 #timer {
-  font-size: 50px; 
-  padding-left: 1rem; 
+  font-size: 50px;
+  padding-left: 1rem;
   font-weight: 700;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   #timer {
     font-size: 130px;
-    padding-left: 3rem; 
+    padding-left: 3rem;
   }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   #timer {
     font-size: 150px;
     padding-left: 3rem;
   }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   #speakerimages {
     padding-left: 20px;
   }
 }
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   #tickets {
     padding-left: 100px;
   }
 }
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   .conclusionofdays {
     font-size: 15px;
   }
 }
 
-
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   #hero-heading {
     font-size: 100px;
-    padding-left: 3rem; 
+    padding-left: 3rem;
   }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   #hero-heading {
     font-size: 120px;
     padding-left: 3rem;
   }
 }
 
-@media (max-width: 500px) { 
-  body { pad: auto;
+@media (max-width: 500px) {
+  body {
+    pad: auto;
     padding-left: 20px;
   }
 }
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   #past-attendeesid {
     left: -10px;
     margin: 10px;
   }
 }
-@media (max-width: 800px) { 
+@media (max-width: 800px) {
   #past-attendeesid {
     left: -10px;
-    
   }
 }
-@media (max-width: 800px) { 
+@media (max-width: 800px) {
   #imgicon1 {
-    top:400px ;
+    top: 400px;
   }
-   #imgicon2 {
-    top:400px ;
+  #imgicon2 {
+    top: 400px;
   }
-   #imgicon3 {
-    top:400px ;
+  #imgicon3 {
+    top: 400px;
   }
-   #imgicon4 {
-    top:400px ;
+  #imgicon4 {
+    top: 400px;
   }
-  #bttn1{ 
-  top: 480px;
-}
+  #bttn1 {
+    top: 480px;
+  }
 }
