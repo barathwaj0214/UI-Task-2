@@ -1,7 +1,7 @@
 body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box;
 }
 
 
@@ -70,3 +70,25 @@ body{
   cursor: pointer;
 }
 
+@media (max-width: 500px) { 
+  body { pad: auto;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 500px) { 
+  #past-attendeesid {
+    left: -10px;
+    margin: 10px;
+  }
+}
+@media (max-width: 800px) { 
+  #past-attendeesid {
+    left: -10px;
+    
+  }
+}
+@media (max-width: 800px) { 
+  #imgicon1 {
+    top: 100px;
+  }
+}
